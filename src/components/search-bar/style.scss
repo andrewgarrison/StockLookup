@@ -1,0 +1,29 @@
+.search-bar {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  width: 400px;
+
+  &__input {
+    width: 400px;
+    max-width: 100%;
+  }
+
+  &__results {
+    position: absolute;
+    left: 0;
+    width: 400px;
+    max-width: 100%;
+    max-height: 500px;
+    overflow-y: auto;
+    margin: 0 auto;
+
+    a {
+      color: initial;
+    }
+
+    &.in-header {
+      margin-left: 24px;
+    }
+  }
+}
